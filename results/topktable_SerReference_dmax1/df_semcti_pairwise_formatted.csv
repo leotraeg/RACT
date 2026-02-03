@@ -1,0 +1,13 @@
+schemas_column_table_pred,metric,top_1,top_2,top_3,top_4,top_5,top_6,top_7,top_8,top_9,top_10,top_11,top_12,top_13,top_14,top_15,top_16
+oc_mysql__oc_oracle,recall,0.667 ± 0.0,0.7 ± 0.027,0.963 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan
+tpch_sf1__oc_oracle,recall,0.648 ± 0.017,0.856 ± 0.034,0.912 ± 0.017,0.956 ± 0.013,0.972 ± 0.019,1.0 ± 0.0,1.0 ± 0.0,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan
+sakila__oc_oracle,recall,0.7 ± 0.018,0.75 ± 0.029,0.993 ± 0.015,0.996 ± 0.011,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan
+oc_oracle__oc_mysql,recall,0.938 ± 0.032,0.962 ± 0.02,0.995 ± 0.015,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan
+tpch_sf1__oc_mysql,recall,0.488 ± 0.02,0.579 ± 0.054,0.762 ± 0.056,0.9 ± 0.053,0.996 ± 0.013,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan
+sakila__oc_mysql,recall,0.667 ± 0.021,0.879 ± 0.012,0.918 ± 0.011,0.933 ± 0.018,0.992 ± 0.012,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan
+oc_oracle__tpch_sf1,recall,0.656 ± 0.021,0.804 ± 0.023,0.952 ± 0.017,0.96 ± 0.0,0.96 ± 0.0,0.996 ± 0.013,1.0 ± 0.0,1.0 ± 0.0,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan
+oc_mysql__tpch_sf1,recall,0.64 ± 0.026,0.703 ± 0.011,0.857 ± 0.022,0.913 ± 0.032,0.963 ± 0.033,0.987 ± 0.017,1.0 ± 0.0,1.0 ± 0.0,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan
+sakila__tpch_sf1,recall,0.418 ± 0.023,0.703 ± 0.058,0.894 ± 0.015,0.979 ± 0.024,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan,nan ± nan
+oc_oracle__sakila,recall,0.624 ± 0.027,0.7 ± 0.045,0.838 ± 0.033,0.857 ± 0.0,0.948 ± 0.027,0.957 ± 0.027,0.967 ± 0.023,0.986 ± 0.023,0.995 ± 0.015,0.995 ± 0.015,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0
+oc_mysql__sakila,recall,0.633 ± 0.057,0.874 ± 0.028,0.897 ± 0.0,0.931 ± 0.012,0.946 ± 0.015,0.972 ± 0.008,0.985 ± 0.013,0.997 ± 0.008,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0
+tpch_sf1__sakila,recall,0.396 ± 0.039,0.678 ± 0.068,0.885 ± 0.027,0.941 ± 0.036,0.97 ± 0.016,0.978 ± 0.019,0.993 ± 0.016,0.996 ± 0.012,0.996 ± 0.012,0.996 ± 0.012,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0,1.0 ± 0.0

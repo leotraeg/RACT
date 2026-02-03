@@ -1,0 +1,212 @@
+id_a,name_a,type_a,schema_a,id_b,name_b,type_b,schema_b,canonical_name,match_type
+entity_46,EMAIL ADDRESS,column,oc_oracle,entity_100,PHONE,column,oc_mysql,Customer Contact,direct
+entity_80,DELIVERY ADDRESS,column,oc_oracle,entity_101,ADDRESS LINE 1,column,oc_mysql,Customer Address,contextual
+entity_80,DELIVERY ADDRESS,column,oc_oracle,entity_102,ADDRESS LINE 2,column,oc_mysql,Customer Address,contextual
+entity_80,DELIVERY ADDRESS,column,oc_oracle,entity_103,CITY,column,oc_mysql,Customer Address,contextual
+entity_80,DELIVERY ADDRESS,column,oc_oracle,entity_104,STATE,column,oc_mysql,Customer Address,contextual
+entity_80,DELIVERY ADDRESS,column,oc_oracle,entity_105,POSTAL CODE,column,oc_mysql,Customer Address,contextual
+entity_80,DELIVERY ADDRESS,column,oc_oracle,entity_106,COUNTRY,column,oc_mysql,Customer Address,contextual
+entity_53,ORDER_ITEMS,table,oc_oracle,entity_128,ORDERDETAILS,table,oc_mysql,Order Details,direct
+entity_54,ORDER ID,column,oc_oracle,entity_129,ORDER NUMBER,column,oc_mysql,Order Details Order ID,direct
+entity_56,PRODUCT ID,column,oc_oracle,entity_130,PRODUCT CODE,column,oc_mysql,Order Details Product ID,direct
+entity_58,QUANTITY,column,oc_oracle,entity_131,QUANTITY ORDERED,column,oc_mysql,Order Quantity,direct
+entity_57,UNIT PRICE,column,oc_oracle,entity_132,PRICE EACH,column,oc_mysql,Order Details Unit Price,direct
+entity_55,LINE ITEM ID,column,oc_oracle,entity_133,ORDER LINE NUMBER,column,oc_mysql,Order Details Line Item ID,direct
+entity_60,ORDERS,table,oc_oracle,entity_134,ORDERS,table,oc_mysql,Orders,direct
+entity_61,ORDER ID,column,oc_oracle,entity_135,ORDER NUMBER,column,oc_mysql,Order ID,direct
+entity_62,ORDER DATE TIME,column,oc_oracle,entity_136,ORDER DATE,column,oc_mysql,Order Datetime,direct
+entity_64,ORDER STATUS,column,oc_oracle,entity_139,STATUS,column,oc_mysql,Order Status,direct
+entity_63,CUSTOMER ID,column,oc_oracle,entity_141,CUSTOMER NUMBER,column,oc_mysql,Order Customer ID,direct
+entity_66,PRODUCTS,table,oc_oracle,entity_147,PRODUCTLINES,table,oc_mysql,Products Line,contextual
+entity_71,PRODUCT IMAGE,column,oc_oracle,entity_151,IMAGE,column,oc_mysql,Product Image,contextual
+entity_48,INVENTORY,table,oc_oracle,entity_152,PRODUCTS,table,oc_mysql,Products Inventory,contextual
+entity_66,PRODUCTS,table,oc_oracle,entity_152,PRODUCTS,table,oc_mysql,Products,direct
+entity_51,PRODUCT ID,column,oc_oracle,entity_153,PRODUCT CODE,column,oc_mysql,Inventory Product Id,contextual
+entity_67,PRODUCT ID,column,oc_oracle,entity_153,PRODUCT CODE,column,oc_mysql,Product ID,direct
+entity_68,PRODUCT NAME,column,oc_oracle,entity_154,PRODUCT NAME,column,oc_mysql,Product Name,direct
+entity_70,PRODUCT DETAILS,column,oc_oracle,entity_158,PRODUCT DESCRIPTION,column,oc_mysql,Product Details,direct
+entity_52,PRODUCT INVENTORY,column,oc_oracle,entity_159,QUANTITY IN STOCK,column,oc_mysql,Product Quantity,contextual
+entity_69,UNIT PRICE,column,oc_oracle,entity_160,BUY PRICE,column,oc_mysql,Product Unit / Buy Price,direct
+entity_44,CUSTOMERS,table,oc_oracle,entity_207,CUSTOMER,table,tpch_sf1,Customer,direct
+entity_76,SHIPMENTS,table,oc_oracle,entity_207,CUSTOMER,table,tpch_sf1,Customer Address,contextual
+entity_95,CUSTOMERS,table,oc_mysql,entity_207,CUSTOMER,table,tpch_sf1,Customer,direct
+entity_45,CUSTOMER_ID,column,oc_oracle,entity_208,C_CUSTKEY,column,tpch_sf1,Customer ID,direct
+entity_96,customerNumber,column,oc_mysql,entity_208,C_CUSTKEY,column,tpch_sf1,Customer ID,direct
+entity_47,FULL_NAME,column,oc_oracle,entity_209,C_NAME,column,tpch_sf1,Customer Name,direct
+entity_97,customerName,column,oc_mysql,entity_209,C_NAME,column,tpch_sf1,Customer Name,direct
+entity_98,CONTACTLASTNAME,column,oc_mysql,entity_209,C_NAME,column,tpch_sf1,Customer Contact,direct
+entity_99,CONTACTFIRSTNAME,column,oc_mysql,entity_209,C_NAME,column,tpch_sf1,Customer Contact,direct
+entity_101,addressLine1,column,oc_mysql,entity_210,C_ADDRESS,column,tpch_sf1,Customer Address,direct
+entity_102,addressLine2,column,oc_mysql,entity_210,C_ADDRESS,column,tpch_sf1,Customer Address,direct
+entity_103,city,column,oc_mysql,entity_210,C_ADDRESS,column,tpch_sf1,Customer Address,direct
+entity_104,state,column,oc_mysql,entity_210,C_ADDRESS,column,tpch_sf1,Customer Address,direct
+entity_105,postalCode,column,oc_mysql,entity_210,C_ADDRESS,column,tpch_sf1,Customer Address,direct
+entity_80,DELIVERY_ADDRESS,column,oc_oracle,entity_210,C_ADDRESS,column,tpch_sf1,Customer Address,direct
+entity_100,phone,column,oc_mysql,entity_212,C_PHONE,column,tpch_sf1,Customer Contact,direct
+entity_46,EMAIL_ADDRESS,column,oc_oracle,entity_212,C_PHONE,column,tpch_sf1,Customer Contact,direct
+entity_108,creditLimit,column,oc_mysql,entity_213,C_ACCTBAL,column,tpch_sf1,Customer Balance,direct
+entity_128,ORDERDETAILS,table,oc_mysql,entity_216,LINEITEM,table,tpch_sf1,Order Details,direct
+entity_134,ORDERS,table,oc_mysql,entity_216,LINEITEM,table,tpch_sf1,Order Details,contextual
+entity_142,PAYMENTS,table,oc_mysql,entity_216,LINEITEM,table,tpch_sf1,Order Payments,direct
+entity_53,ORDER_ITEMS,table,oc_oracle,entity_216,LINEITEM,table,tpch_sf1,Order Items,direct
+entity_60,ORDERS,table,oc_oracle,entity_216,LINEITEM,table,tpch_sf1,Order Line,contextual
+entity_76,SHIPMENTS,table,oc_oracle,entity_216,LINEITEM,table,tpch_sf1,Shipment Status,contextual
+entity_54,ORDER_ID,column,oc_oracle,entity_217,L_ORDERKEY,column,tpch_sf1,Order Details Order ID,direct
+entity_130,productCode,column,oc_mysql,entity_218,L_PARTKEY,column,tpch_sf1,Order Details Product ID,direct
+entity_56,PRODUCT_ID,column,oc_oracle,entity_218,L_PARTKEY,column,tpch_sf1,Order Details Product ID,direct
+entity_65,STORE_ID,column,oc_oracle,entity_219,L_SUPPKEY,column,tpch_sf1,Order Supplier ID,direct
+entity_133,orderLineNumber,column,oc_mysql,entity_220,L_LINENUMBER,column,tpch_sf1,Order Details Line Item ID,direct
+entity_55,LINE_ITEM_ID,column,oc_oracle,entity_220,L_LINENUMBER,column,tpch_sf1,Order Details Line Item ID,direct
+entity_131,quantityOrdered,column,oc_mysql,entity_221,L_QUANTITY,column,tpch_sf1,Order Details Quantity,direct
+entity_58,QUANTITY,column,oc_oracle,entity_221,L_QUANTITY,column,tpch_sf1,Order Details Quantity,direct
+entity_132,priceEach,column,oc_mysql,entity_222,L_EXTENDEDPRICE,column,tpch_sf1,Order Details Unit Price,direct
+entity_57,UNIT_PRICE,column,oc_oracle,entity_222,L_EXTENDEDPRICE,column,tpch_sf1,Order Details Unit Price,direct
+entity_138,shippedDate,column,oc_mysql,entity_227,L_SHIPDATE,column,tpch_sf1,Order Ship Date,contextual
+entity_145,paymentDate,column,oc_mysql,entity_229,L_RECEIPTDATE,column,tpch_sf1,Order Payment Date,contextual
+entity_76,SHIPMENTS,table,oc_oracle,entity_233,NATION,table,tpch_sf1,Customer Address,contextual
+entity_82,STORES,table,oc_oracle,entity_233,NATION,table,tpch_sf1,Store Address,contextual
+entity_95,CUSTOMERS,table,oc_mysql,entity_233,NATION,table,tpch_sf1,Customer Address,contextual
+entity_106,country,column,oc_mysql,entity_235,N_NAME,column,tpch_sf1,Customer Address Country,contextual
+entity_80,DELIVERY_ADDRESS,column,oc_oracle,entity_235,N_NAME,column,tpch_sf1,Customer Address Country,contextual
+entity_86,PHYSICAL_ADDRESS,column,oc_oracle,entity_235,N_NAME,column,tpch_sf1,Store Address Country,contextual
+entity_134,ORDERS,table,oc_mysql,entity_238,ORDERS,table,tpch_sf1,Order,direct
+entity_142,PAYMENTS,table,oc_mysql,entity_238,ORDERS,table,tpch_sf1,Payments,contextual
+entity_60,ORDERS,table,oc_oracle,entity_238,ORDERS,table,tpch_sf1,Order,direct
+entity_135,orderNumber,column,oc_mysql,entity_239,O_ORDERKEY,column,tpch_sf1,Order Order ID,direct
+entity_61,ORDER_ID,column,oc_oracle,entity_239,O_ORDERKEY,column,tpch_sf1,Order Order ID,direct
+entity_141,customerNumber,column,oc_mysql,entity_240,O_CUSTKEY,column,tpch_sf1,Order Customer ID,direct
+entity_63,CUSTOMER_ID,column,oc_oracle,entity_240,O_CUSTKEY,column,tpch_sf1,Order Customer ID,direct
+entity_139,status,column,oc_mysql,entity_241,O_ORDERSTATUS,column,tpch_sf1,Order Status,direct
+entity_64,ORDER_STATUS,column,oc_oracle,entity_241,O_ORDERSTATUS,column,tpch_sf1,Order Status,direct
+entity_146,amount,column,oc_mysql,entity_242,O_TOTALPRICE,column,tpch_sf1,Order Total Price,contextual
+entity_136,orderDate,column,oc_mysql,entity_243,O_ORDERDATE,column,tpch_sf1,Order Datetime,direct
+entity_62,ORDER_DATETIME,column,oc_oracle,entity_243,O_ORDERDATE,column,tpch_sf1,Order Datetime,direct
+entity_140,comments,column,oc_mysql,entity_247,O_COMMENT,column,tpch_sf1,Order Comment,direct
+entity_152,PRODUCTS,table,oc_mysql,entity_248,PART,table,tpch_sf1,Product,direct
+entity_66,PRODUCTS,table,oc_oracle,entity_248,PART,table,tpch_sf1,Product,direct
+entity_153,productCode,column,oc_mysql,entity_249,P_PARTKEY,column,tpch_sf1,Product ID,direct
+entity_67,PRODUCT_ID,column,oc_oracle,entity_249,P_PARTKEY,column,tpch_sf1,Product ID,direct
+entity_154,productName,column,oc_mysql,entity_250,P_NAME,column,tpch_sf1,Product Name,direct
+entity_68,PRODUCT_NAME,column,oc_oracle,entity_250,P_NAME,column,tpch_sf1,Product Name,direct
+entity_157,productVendor,column,oc_mysql,entity_252,P_BRAND,column,tpch_sf1,Product Brand,direct
+entity_161,MSRP,column,oc_mysql,entity_256,P_RETAILPRICE,column,tpch_sf1,Product Retail Price,direct
+entity_69,UNIT_PRICE,column,oc_oracle,entity_256,P_RETAILPRICE,column,tpch_sf1,Product Retail Price,direct
+entity_152,PRODUCTS,table,oc_mysql,entity_258,PARTSUPP,table,tpch_sf1,Inventory,contextual
+entity_48,INVENTORY,table,oc_oracle,entity_258,PARTSUPP,table,tpch_sf1,Inventory,direct
+entity_51,PRODUCT_ID,column,oc_oracle,entity_259,PS_PARTKEY,column,tpch_sf1,Store Inventory Product ID,direct
+entity_50,STORE_ID,column,oc_oracle,entity_260,PS_SUPPKEY,column,tpch_sf1,Store ID,direct
+entity_159,quantityInStock,column,oc_mysql,entity_261,PS_AVAILQTY,column,tpch_sf1,Store Inventory Available Quantity,contextual
+entity_52,PRODUCT_INVENTORY,column,oc_oracle,entity_261,PS_AVAILQTY,column,tpch_sf1,Store Inventory Available Quantity,direct
+entity_152,PRODUCTS,table,oc_mysql,entity_268,SUPPLIER,table,tpch_sf1,Store,contextual
+entity_82,STORES,table,oc_oracle,entity_268,SUPPLIER,table,tpch_sf1,Store,direct
+entity_83,STORE_ID,column,oc_oracle,entity_269,S_SUPPKEY,column,tpch_sf1,Store ID,direct
+entity_157,productVendor,column,oc_mysql,entity_270,S_NAME,column,tpch_sf1,Product Vendor Name,contextual
+entity_84,STORE_NAME,column,oc_oracle,entity_270,S_NAME,column,tpch_sf1,Store Name,direct
+entity_86,PHYSICAL_ADDRESS,column,oc_oracle,entity_271,S_ADDRESS,column,tpch_sf1,Store Address,direct
+entity_44,CUSTOMERS,table,oc_oracle,entity_95,CUSTOMERS,table,oc_mysql,Customer,direct
+entity_76,SHIPMENTS,table,oc_oracle,entity_95,CUSTOMERS,table,oc_mysql,Customer Shipments,contextual
+entity_45,CUSTOMER ID,column,oc_oracle,entity_96,CUSTOMER NUMBER,column,oc_mysql,Customer ID,direct
+entity_79,CUSTOMER ID,column,oc_oracle,entity_96,CUSTOMER NUMBER,column,oc_mysql,Customer ID Shipments,contextual
+entity_47,FULL NAME,column,oc_oracle,entity_98,CONTACT LASTNAME,column,oc_mysql,Customer Full Name,direct
+entity_47,FULL NAME,column,oc_oracle,entity_99,CONTACT FIRST NAME,column,oc_mysql,Customer Full Name,direct
+entity_45,CUSTOMER_ID,column,oc_oracle,entity_300,customer_id,column,sakila,Customer ID,direct
+entity_47,FULL_NAME,column,oc_oracle,entity_302,first_name,column,sakila,Customer Full Name,direct
+entity_47,FULL_NAME,column,oc_oracle,entity_303,last_name,column,sakila,Customer Full Name,direct
+entity_49,INVENTORY_ID,column,oc_oracle,entity_328,inventory_id,column,sakila,,direct
+entity_51,PRODUCT_ID,column,oc_oracle,entity_329,film_id,column,sakila,,direct
+entity_50,STORE_ID,column,oc_oracle,entity_330,store_id,column,sakila,,direct
+entity_61,ORDER_ID,column,oc_oracle,entity_342,rental_id,column,sakila,,direct
+entity_62,ORDER_DATETIME,column,oc_oracle,entity_343,rental_date,column,sakila,,direct
+entity_63,CUSTOMER_ID,column,oc_oracle,entity_345,customer_id,column,sakila,,direct
+entity_65,STORE_ID,column,oc_oracle,entity_330,store_id,column,sakila,,direct
+entity_67,PRODUCT_ID,column,oc_oracle,entity_309,film_id,column,sakila,,direct
+entity_68,PRODUCT_NAME,column,oc_oracle,entity_310,title,column,sakila,,direct
+entity_69,UNIT_PRICE,column,oc_oracle,entity_316,rental_rate,column,sakila,,direct
+entity_70,PRODUCT_DETAILS,column,oc_oracle,entity_311,description,column,sakila,,direct
+entity_79,CUSTOMER_ID,column,oc_oracle,entity_300,customer_id,column,sakila,,contextual
+entity_80,DELIVERY_ADDRESS,column,oc_oracle,entity_283,address,column,sakila,,contextual
+entity_80,DELIVERY_ADDRESS,column,oc_oracle,entity_284,address2,column,sakila,,contextual
+entity_80,DELIVERY_ADDRESS,column,oc_oracle,entity_285,district,column,sakila,,contextual
+entity_80,DELIVERY_ADDRESS,column,oc_oracle,entity_287,postal_code,column,sakila,,contextual
+entity_80,DELIVERY_ADDRESS,column,oc_oracle,entity_294,city,column,sakila,,contextual
+entity_80,DELIVERY_ADDRESS,column,oc_oracle,entity_298,country,column,sakila,,contextual
+entity_83,STORE_ID,column,oc_oracle,entity_359,store_id,column,sakila,,direct
+entity_86,PHYSICAL_ADDRESS,column,oc_oracle,entity_283,address,column,sakila,,contextual
+entity_86,PHYSICAL_ADDRESS,column,oc_oracle,entity_284,address2,column,sakila,,contextual
+entity_86,PHYSICAL_ADDRESS,column,oc_oracle,entity_285,district,column,sakila,,contextual
+entity_86,PHYSICAL_ADDRESS,column,oc_oracle,entity_287,postal_code,column,sakila,,contextual
+entity_86,PHYSICAL_ADDRESS,column,oc_oracle,entity_294,city,column,sakila,,contextual
+entity_86,PHYSICAL_ADDRESS,column,oc_oracle,entity_298,country,column,sakila,,contextual
+entity_96,CUSTOMERNUMBER,column,oc_mysql,entity_300,customer_id,column,sakila,,direct
+entity_99,CONTACTFIRSTNAME,column,oc_mysql,entity_302,first_name,column,sakila,,direct
+entity_98,CONTACTLASTNAME,column,oc_mysql,entity_303,last_name,column,sakila,,direct
+entity_101,ADDRESSLINE1,column,oc_mysql,entity_283,address,column,sakila,,contextual
+entity_102,ADDRESSLINE2,column,oc_mysql,entity_284,address2,column,sakila,,contextual
+entity_103,CITY,column,oc_mysql,entity_294,city,column,sakila,,contextual
+entity_104,STATE,column,oc_mysql,entity_285,district,column,sakila,,contextual
+entity_105,POSTALCODE,column,oc_mysql,entity_287,postal_code,column,sakila,,contextual
+entity_100,PHONE,column,oc_mysql,entity_288,phone,column,sakila,,contextual
+entity_106,COUNTRY,column,oc_mysql,entity_298,country,column,sakila,,contextual
+entity_107,SALESREPEMPLOYEENUMBER,column,oc_mysql,entity_360,manager_staff_id,column,sakila,,contextual
+entity_110,EMPLOYEENUMBER,column,oc_mysql,entity_349,staff_id,column,sakila,,direct
+entity_112,FIRSTNAME,column,oc_mysql,entity_350,first_name,column,sakila,,direct
+entity_111,LASTNAME,column,oc_mysql,entity_351,last_name,column,sakila,,direct
+entity_114,EMAIL,column,oc_mysql,entity_353,email,column,sakila,,direct
+entity_115,OFFICECODE,column,oc_mysql,entity_354,store_id,column,sakila,,direct
+entity_116,REPORTSTO,column,oc_mysql,entity_360,manager_staff_id,column,sakila,,contextual
+entity_119,OFFICECODE,column,oc_mysql,entity_359,store_id,column,sakila,,direct
+entity_120,CITY,column,oc_mysql,entity_294,city,column,sakila,,contextual
+entity_121,PHONE,column,oc_mysql,entity_288,phone,column,sakila,,contextual
+entity_122,ADDRESSLINE1,column,oc_mysql,entity_283,address,column,sakila,,contextual
+entity_123,ADDRESSLINE2,column,oc_mysql,entity_284,address2,column,sakila,,contextual
+entity_124,STATE,column,oc_mysql,entity_285,district,column,sakila,,contextual
+entity_125,COUNTRY,column,oc_mysql,entity_298,country,column,sakila,,contextual
+entity_126,POSTALCODE,column,oc_mysql,entity_287,postal_code,column,sakila,,contextual
+entity_135,ORDERNUMBER,column,oc_mysql,entity_342,rental_id,column,sakila,,direct
+entity_136,ORDERDATE,column,oc_mysql,entity_343,rental_date,column,sakila,,direct
+entity_141,CUSTOMERNUMBER,column,oc_mysql,entity_345,customer_id,column,sakila,,direct
+entity_129,ORDERNUMBER,column,oc_mysql,entity_342,rental_id,column,sakila,,direct
+entity_130,PRODUCTCODE,column,oc_mysql,entity_329,film_id,column,sakila,,direct
+entity_132,PRICEEACH,column,oc_mysql,entity_316,rental_rate,column,sakila,,contextual
+entity_143,CUSTOMERNUMBER,column,oc_mysql,entity_336,customer_id,column,sakila,,direct
+entity_144,CHECKNUMBER,column,oc_mysql,entity_335,payment_id,column,sakila,,direct
+entity_145,PAYMENTDATE,column,oc_mysql,entity_340,payment_date,column,sakila,,direct
+entity_146,AMOUNT,column,oc_mysql,entity_339,amount,column,sakila,,direct
+entity_153,PRODUCTCODE,column,oc_mysql,entity_309,film_id,column,sakila,,direct
+entity_154,PRODUCTNAME,column,oc_mysql,entity_310,title,column,sakila,,direct
+entity_158,PRODUCTDESCRIPTION,column,oc_mysql,entity_311,description,column,sakila,,direct
+entity_160,BUYPRICE,column,oc_mysql,entity_318,replacement_cost,column,sakila,,direct
+entity_208,C_CUSTKEY,column,tpch_sf1,entity_300,customer_id,column,sakila,,direct
+entity_209,C_NAME,column,tpch_sf1,entity_302,first_name,column,sakila,,direct
+entity_209,C_NAME,column,tpch_sf1,entity_303,last_name,column,sakila,,direct
+entity_210,C_ADDRESS,column,tpch_sf1,entity_283,address,column,sakila,,contextual
+entity_210,C_ADDRESS,column,tpch_sf1,entity_284,address2,column,sakila,,contextual
+entity_210,C_ADDRESS,column,tpch_sf1,entity_285,district,column,sakila,,contextual
+entity_210,C_ADDRESS,column,tpch_sf1,entity_287,postal_code,column,sakila,,contextual
+entity_210,C_ADDRESS,column,tpch_sf1,entity_294,city,column,sakila,,contextual
+entity_211,C_NATIONKEY,column,tpch_sf1,entity_295,country_id,column,sakila,,contextual
+entity_212,C_PHONE,column,tpch_sf1,entity_288,phone,column,sakila,,contextual
+entity_234,N_NATIONKEY,column,tpch_sf1,entity_297,country_id,column,sakila,,direct
+entity_235,N_NAME,column,tpch_sf1,entity_298,country,column,sakila,,direct
+entity_239,O_ORDERKEY,column,tpch_sf1,entity_342,rental_id,column,sakila,analogy,direct
+entity_240,O_CUSTKEY,column,tpch_sf1,entity_345,customer_id,column,sakila,,direct
+entity_242,O_TOTALPRICE,column,tpch_sf1,entity_339,amount,column,sakila,,contextual
+entity_243,O_ORDERDATE,column,tpch_sf1,entity_343,rental_date,column,sakila,,direct
+entity_245,O_CLERK,column,tpch_sf1,entity_347,staff_id,column,sakila,,direct
+entity_217,L_ORDERKEY,column,tpch_sf1,entity_342,rental_id,column,sakila,analogy,contextual
+entity_218,L_PARTKEY,column,tpch_sf1,entity_329,film_id,column,sakila,analogy,direct
+entity_219,L_SUPPKEY,column,tpch_sf1,entity_330,store_id,column,sakila,analogy,direct
+entity_222,L_EXTENDEDPRICE,column,tpch_sf1,entity_316,rental_rate,column,sakila,analogy,contextual
+entity_249,P_PARTKEY,column,tpch_sf1,entity_309,film_id,column,sakila,analogy,direct
+entity_250,P_NAME,column,tpch_sf1,entity_310,title,column,sakila,analogy,direct
+entity_256,P_RETAILPRICE,column,tpch_sf1,entity_318,replacement_cost,column,sakila,analogy,direct
+entity_259,PS_PARTKEY,column,tpch_sf1,entity_329,film_id,column,sakila,analogy,direct
+entity_260,PS_SUPPKEY,column,tpch_sf1,entity_330,store_id,column,sakila,analogy,direct
+entity_269,S_SUPPKEY,column,tpch_sf1,entity_359,store_id,column,sakila,,direct
+entity_271,S_ADDRESS,column,tpch_sf1,entity_283,address,column,sakila,,direct
+entity_271,S_ADDRESS,column,tpch_sf1,entity_284,address2,column,sakila,,direct
+entity_271,S_ADDRESS,column,tpch_sf1,entity_285,district,column,sakila,,direct
+entity_271,S_ADDRESS,column,tpch_sf1,entity_287,postal_code,column,sakila,,direct
+entity_271,S_ADDRESS,column,tpch_sf1,entity_294,city,column,sakila,,contextual
+entity_272,S_NATIONKEY,column,tpch_sf1,entity_295,country_id,column,sakila,,contextual
+entity_273,S_PHONE,column,tpch_sf1,entity_288,phone,column,sakila,,direct
