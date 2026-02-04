@@ -5,7 +5,7 @@
 RACT exploits referential context into schema matching by introducing RACT learning and prediction, a self-supervised framework enabling the probabilistic retrieval of candidate tables for source columns to constrain relevant column candidates. The research project implements the following phases:
 
 - **(a.I-II) Retrieval Augmented Columns** using view path traversals from relational schema tables (nodes) and reference constraints (edges) represented as a directed graph.
-- **(a.III) Schema-Aware Column Representations** extending classical column serializations (with sentence transformers for matching via semantic similarity)  with strong and weak tables of a columns' host table.
+- **(a.III) Schema-Aware Column Representations** extending classical column serializations (with sentence transformers for matching via semantic similarity) with strong and weak tables of a columns' host table (SerReference).
 - **(b) Self-Supervised Column-Table Learning** using Single (b.I), Pairwise (b.II), or Holistic (b.III) schema as input. (b.II-III) use masked loss for simultaneous shared space learning. 
 - **(c) Column-Table Prediction** applying the learned models to effectively retrieve table candidates from columns in other schemas. 
 
@@ -20,11 +20,11 @@ Notebook Outline:
 - 2: Dataset (schema elements, schema matches, referential constraints)
 - (A): Retrieval Augmented Columns
 - (B): Self-Supervised Column-Table Learning
--- (B.I): Single Model with Prediction (C) and Evaluation (E1-3)
--- (B.II): Pairwise Model with Prediction (C) and Evaluation (E1-3)
--- (B.III): Holistic Model with Prediction (C) and Evaluation (E1-3)
-- 3: Impact Study Serialization for Blocking and Matching
-- 4: ReMatch (Baseline) and Evaluation
+  - (B.I): Single Model with Prediction (C) and Evaluation (E1-3)
+  - (B.II): Pairwise Model with Prediction (C) and Evaluation (E1-3)
+  - (B.III): Holistic Model with Prediction (C) and Evaluation (E1-3)
+- 3: Impact Study Serialization SerSchema, SerValues, (Reference Magneto: https://dl.acm.org/doi/abs/10.14778/3742728.3742757), SerReference for Blocking and Matching
+- 4: ReMatch Target Table Retrieval (Baseline: https://arxiv.org/abs/2403.01567) and Evaluation
 
 Evaluation (E):
 1. top-k-table @recall
