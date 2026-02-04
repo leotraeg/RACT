@@ -24,7 +24,7 @@ Notebook Outline:
   - (B.II): Pairwise Model with Prediction (C) and Evaluation (E1-3)
   - (B.III): Holistic Model with Prediction (C) and Evaluation (E1-3)
 - 3: Impact Study Serialization SerSchema, SerValues, (Reference Magneto: https://dl.acm.org/doi/abs/10.14778/3742728.3742757), SerReference for Blocking and Matching
-- 4: ReMatch Target Table Retrieval (Baseline: https://arxiv.org/abs/2403.01567) and Evaluation
+- 4: ReMatch Target Table Retrieval (Baseline: https://arxiv.org/abs/2403.01567) and Evaluation (E1)
 
 Evaluation (E):
 1. top-k-table @recall
